@@ -9,13 +9,7 @@ body {
   padding: 0;
   margin: 0;
 }
-header {
-  background-color: white;
-}
-header > nav > div > img {
-  width: 30px;
-  height: auto;
-}
+
 .navbar {
   background-color: white;
   color: black;
@@ -41,8 +35,77 @@ header > nav > div > img {
   text-decoration: none;
 }
 .navbar a:hover {
-  color: aqua;
+  color: coral;
 }
+/* section 2 */
+header {
+  background-image: url(../img/first-background.jpg);
+  background-size: cover;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+.centerheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+header h1 {
+  font-size: 30px;
+}
+header p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+button {
+  padding: 7px;
+  border: 0;
+  border-radius: 2px;
+}
+button:hover {
+  background-color: coral;
+}
+.buttonlearn {
+  background-color: tomato;
+}
+
+/* section 3 */
+section {
+  text-align: center;
+  padding: 30px;
+}
+.continer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 810px;
+  margin: 20px auto 0;
+}
+.imagelink {
+  text-decoration: none;
+  margin: 10px;
+  max-width: 250px;
+}
+/* to make all images of different height and width the same */
+.imagelink > img {
+  max-width: 100%;
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.imagelink > p {
+  font-size: 13px;
+  margin-top: 10px;
+  color: #000;
+}
+/* section 4 footer  */
 
 /**
  * Add your custom styles below
