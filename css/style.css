@@ -106,7 +106,42 @@ section {
   color: #000;
 }
 /* section 4 footer  */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 3px solid gray;
+  /* border-style: solid;
+  border-color: gray; */
+}
+.container-footer {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.container-footer > a {
+  border-radius: 50%;
+  margin: 0 10px;
+  border: 3px solid rgb(216, 206, 206);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+}
 
+.image-footer {
+  padding: 10px;
+}
+
+.image-footer > img {
+  max-width: 100%;
+  float: left;
+  width: 320px;
+  height: 30px;
+  object-fit: cover;
+}
 /**
  * Add your custom styles below
  * 
